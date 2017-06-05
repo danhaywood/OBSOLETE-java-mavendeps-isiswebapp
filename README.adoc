@@ -2,6 +2,7 @@
 :_imagesdir: ./
 :toc:
 
+*As of 1.15.0, this module has been moved into Isis core*
 
 This module, for use within link:http://isis.apache.org[Apache Isis] applications, defines a single module that can be used as a single dependency for running an Apache Isis webapp (Wicket, Restful Objects and Shiro security).
 This reduces the size of the maven `pom.xml` file for that consuming module; it simply needs to reference _this_ module as a `<dependency>`.
